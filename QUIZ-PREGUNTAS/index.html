@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="../assets/favicon.png" />
+    <title>Quiz</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="stylesheet" href="css/juego.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- header -->
+      <div class="header">
+        <br />
+        <p>Esto es una página de muestra</p>
+        <h1>Preguntas sobre las Iglesias</h1>
+        <h3>
+          Prueba a ver cuánto sabes sobre la historia de Aranjuez con este
+          pequeño quiz.
+        </h3>
+      </div>
+      <!-- main -->
+      <div class="question">
+        <div class="pregunta">
+          <p>
+            ¿Con qué se unen las galerías de arcos de la fachada de la iglesia
+            de San Antonio?
+          </p>
+        </div>
+        <div class="img">
+          <img
+            src="images/san-antonio.jpg"
+            alt="Palacio de Medinaceli"
+            width="50%"
+          />
+        </div>
+      </div>
+      <br />
+      <div class="respuestas row text-center">
+        <div class="respuesta ra col-md-3">
+          <input type="radio" name="answers" id="a" value="a" />
+          <label for="a">Palacio de Aranjuez</label>
+        </div>
+        <div class="respuesta rb col-md-3">
+          <input type="radio" name="answers" id="b" value="b" />
+          <label for="b">Casa de Infantes y Casa de Oficios</label>
+        </div>
+        <div class="respuesta rc col-md-3">
+          <input type="radio" name="answers" id="c" value="c" />
+          <label for="c">Jardín de La Isla</label>
+        </div>
+        <div class="respuesta rd col-md-3">
+          <input type="radio" name="answers" id="d" value="d" />
+          <label for="d">Restaurantes y casco Urbano</label>
+        </div>
+      </div>
+      <br />
+      <br />
+      <div class="botones row text-center">
+        <div class="atras col-md-4">
+          <button type="button" id="alante" class="btn btn-success">
+            Atras
+          </button>
+        </div>
+        <!-- MODAL PARA PISTA -->
+        <div class="hint col-md-4">
+          <button
+            type="button"
+            class="btn btn-success"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal"
+          >
+            <div class="text-primary fw-bolder mb-2">Pista</div>
+          </button>
+
+          <!-- Modal -->
+          <div
+            class="modal fade"
+            id="exampleModal"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">
+                    Las Iglesias y parroquias de Aranjuez
+                  </h1>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body">
+                  Es importante fijarse en la fachada.
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-bs-dismiss="modal"
+                  >
+                    Cerrar
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- MODAL PARA PISTA -->
+        <div class="siguiente col-md-4">
+          <button type="button" id="atras" class="btn btn-success">
+            Siguiente
+          </button>
+        </div>
+      </div>
+      <br />
+    </div>
+    <!-- footer -->
+    <footer class="bg-white py-4 mt-auto">
+      <div class="container px-5">
+        <div
+          class="row align-items-center justify-content-between flex-column flex-sm-row"
+        >
+          <div class="col-auto">
+            <div class="small m-0">&copy; Andrés Navarro 2024</div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="juego.js"></script>
+  </body>
+</html>

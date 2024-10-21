@@ -1,0 +1,24 @@
+p{
+  font-size: 30px;
+}
+input{
+  display: none;
+}
+label{
+  background-color: whitesmoke;
+  color: black;
+  padding: 1em;
+  margin: 0.5em;
+}
+input:checked + label{
+  background-color: black;
+  color: whitesmoke;
+}
+.question{
+  text-align: center;
+}
+.container{
+  padding-right: 5em;
+  padding-left: 5em;
+}
+

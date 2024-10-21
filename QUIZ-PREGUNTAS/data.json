@@ -1,0 +1,244 @@
+{
+  "title": "Las principales Iglesias de Aranjuez",
+  "id_test": "",
+  "description": "Paseo que recoge detalles sobre las principales iglesias de Aranjuez",
+  "author": "Andrés Navarro Villanueva",
+  "images_feature": {
+    "url": "./images/loquesea.jpg",
+    "alt": "imagen de cabecera"
+  },
+  "questions": [
+    [
+      {
+        "id": 1,
+        "question": "¿Con qué se unen las galerías de arcos de la fachada de la iglesia de San Antonio?",
+        "answers": {
+          "a": "Palacio de Aranjuez",
+          "b": "Casa de Infantes y Casa de Oficios",
+          "c": "Jardín de La Isla",
+          "d": "Restaurantes y casco Urbano"
+        },
+        "results": {
+          "a": false,
+          "b": true,
+          "c": false,
+          "d": false
+        },
+        "images_question": {
+          "url": "./images/san-antonio.jpg",
+          "alt": "Iglesia-San-Antonio",
+          "desc": "Fachada de Iglesia de San Antonio."
+        },
+        "hint": "Es importante fijarse en la fachada.",
+        "curiosity": "Está inmediatamente conectada con la Casa de Oficios y de Infantes, pero si vas continuando los edificios, realmente están todos conectados llegando hasta el Palacio, por la Plaza de Parejas."
+      },
+      {
+        "id": 2,
+        "question": "La fotografía muestra el interior de uno de los templos. ¿Sabes a cuál pertenece?",
+        "answers": {
+          "a": "Iglesia de Ntra. Sra. de las Anguistias",
+          "b": "Convento de San Pascual",
+          "c": "Iglesia de San Antonio",
+          "d": "Capilla del Palacio de Aranjuez"
+        },
+        "results": {
+          "a": true,
+          "b": false,
+          "c": false,
+          "d": false
+        },
+        "images_question": {
+          "url": "./images/interior-alpajes.jpg",
+          "alt": "Interior Alpajes",
+          "desc": "Interior Iglesia Alpajes"
+        },
+        "hint": "Es accesible sin horarios específicos.",
+        "curiosity": "Es la Iglesia más antigua, ya que era la parroquia de Alpajés, poblado medieval más antiguo que Aranjuez."
+      },
+      {
+        "id": 3,
+        "question": "¿Cuántas torres conforman la fachada de San Pascual?",
+        "answers": {
+          "a": "8",
+          "b": "4",
+          "c": "5",
+          "d": "2"
+        },
+        "results": {
+          "a": false,
+          "b": false,
+          "c": false,
+          "d": true
+        },
+        "images_question": {
+          "url": "./images/san-pascual.jpg",
+          "alt": "Fachada-san-pascual",
+          "desc": "Fachada de San Pascual"
+        },
+        "hint": "Es importante fijarse en la fachada.",
+        "curiosity": "El templo tiene un estilo neoclásico."
+      },
+      {
+        "id": 4,
+        "question": "¿En qué siglo se construyó el convento de San Pascual?",
+        "answers": {
+          "a": "XV",
+          "b": "XVIII",
+          "c": "XVI",
+          "d": "XX"
+        },
+        "results": {
+          "a": false,
+          "b": true,
+          "c": false,
+          "d": false
+        },
+        "images_question": {
+          "url": "./images/san-pascual.jpg",
+          "alt": "Fachada-san-pascual",
+          "desc": "Fachada de San Pascual"
+        },
+        "hint": "En este siglo, los Borbones comenzaron su reinado en España.",
+        "curiosity": "Con el fin de la Guerra Civil, el convento fue habilitado primero como campo de concentración y posteriormente como prisión para la Primera región Militar del Ejército de Ocupación. Después, fue el destino de la Prisión Especial de Mujeres"
+      },
+      {
+        "id": 5,
+        "question": "¿En qué concepción arquitectónica se basa la Iglesia de San Antonio?",
+        "answers": {
+          "a": "Neoclásico",
+          "b": "Barroco",
+          "c": "Renacentista",
+          "d": "Hispanoárabe"
+        },
+        "results": {
+          "a": false,
+          "b": true,
+          "c": false,
+          "d": false
+        },
+        "images_question": {
+          "url": "./images/san-antonio.jpg",
+          "alt": "Iglesia-San-Antonio",
+          "desc": "Fachada de Iglesia de San Antonio."
+        },
+        "hint": "Contruida en el Siglo XVIII",
+        "curiosity": "Fue mandada construir por Fernando VI y serviría para el pueblo y la Monarquía"
+      },
+      {
+        "id": 6,
+        "question": "¿Con qué otro nombre se conoce a la Iglesia de Alpajés?",
+        "answers": {
+          "a": "Iglesia de Cristo resucitado",
+          "b": "Iglesia Franciscana de Aranjuez",
+          "c": "Capilla del Real sitio",
+          "d": "Iglesia de Nuestra Señora de las Angustias"
+        },
+        "results": {
+          "a": false,
+          "b": false,
+          "c": false,
+          "d": true
+        },
+        "images_question": {
+          "url": "./images/alpajes.jpg",
+          "alt": "Alpajes",
+          "desc": "Iglesia del Alpajés"
+        },
+        "hint": "Podrás descubrirlo en la misma entrada de la Iglesia.",
+        "curiosity": "El nombre de Alpajés, se basa sólo en su pasado, pero el nombre oficial es Nuestra Señora de las Angustias."
+      },
+      {
+        "id": 7,
+        "question": "¿Cuál de éstos usos se le dió a la iglesia y convento de San Pascual en momentos históricos clave?",
+        "answers": {
+          "a": "Fábrica de munición",
+          "b": "Base de operaciones militares",
+          "c": "Hospital Militar",
+          "d": "Orfanato"
+        },
+        "results": {
+          "a": false,
+          "b": false,
+          "c": true,
+          "d": false
+        },
+        "images_question": {
+          "url": "./images/san-pascual.jpg",
+          "alt": "Fachada-san-pascual",
+          "desc": "Fachada de San Pascual"
+        },
+        "hint": "Tuvo dos usos distintos, una en la guerra de la independencia y otro en la guerra civil.",
+        "curiosity": "Efectivamente, en la guerra de la independencia, tras el motín de Aranjuez, se habilitó como hospital militar."
+      },
+      {
+        "id": 8,
+        "question": "El cuadro de la imagen se encuentra en el Altar Mayor de la Iglesia de San Pascual, ¿Cuál es su nombre?",
+        "answers": {
+          "a": "Cuadro de San Pascual Bailón adorando al Santísimo Sacramento",
+          "b": "Cuadro de San Pablo adorando la resurrección del señor",
+          "c": "Cuadro del monje penitente",
+          "d": "Cuadro de Santo Tomás adorando a los ángeles"
+        },
+        "results": {
+          "a": true,
+          "b": false,
+          "c": false,
+          "d": false
+        },
+        "images_question": {
+          "url": "./images/estatua-alfonso.jpg",
+          "alt": "rey alfonso XIII",
+          "desc": "estatua commerativa de cuando estuvo en la pandemia de Aranjuez"
+        },
+        "hint": "Piensa en el nombre del templo",
+        "curiosity": "Este cuadro fue pintado por Anton Raphael Mengs, que llegó a ser pintor de cámara de Carlos III."
+      },
+      {
+        "id": 9,
+        "question": "¿A qué orden fueron destinadas la iglesia y el convento?",
+        "answers": {
+          "a": "Concepcionistas",
+          "b": "Franciscanos",
+          "c": "Protestantes",
+          "d": "Misioneros por la paz"
+        },
+        "results": {
+          "a": false,
+          "b": true,
+          "c": false,
+          "d": false
+        },
+        "images_question": {
+          "url": "./images/estatua-alfonso.jpg",
+          "alt": "rey alfonso XIII",
+          "desc": "estatua commerativa de cuando estuvo en la pandemia de Aranjuez"
+        },
+        "hint": "Se basan según el ideario de san Francisco de Asís.",
+        "curiosity": "En un principio fue un convento franciscano aunque, tras la desamortización y por deseo de la reina Isabel II, fue ocupado desde 1858 por monjas concepcionistas."
+      },
+      {
+        "id": 10,
+        "question": "Cuál es la más moderna de las tres Iglesias",
+        "answers": {
+          "a": "Iglesia de San Antonio",
+          "b": "Iglesia de San Pascual",
+          "c": "Iglesia de Alpajés",
+          "d": "Iglesia de Palacio"
+        },
+        "results": {
+          "a": false,
+          "b": true,
+          "c": false,
+          "d": false
+        },
+        "images_question": {
+          "url": "./images/estatua-alfonso.jpg",
+          "alt": "rey alfonso XIII",
+          "desc": "estatua commerativa de cuando estuvo en la pandemia de Aranjuez"
+        },
+        "hint": "Fachada Neoclásica",
+        "curiosity": "La Iglesia Convento de San Pascual inició su construcción den 1765."
+      }
+    ]
+  ]
+}
